@@ -1,3 +1,8 @@
+on fs
+    # exfat module
+    insmod /system/lib/modules/exfat_core.ko
+    insmod /system/lib/modules/exfat_fs.ko
+
 on boot
     # Owner for the proximity sensor
     chown system system /sys/devices/i2c-2/2-0054/threshold
