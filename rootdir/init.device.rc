@@ -16,7 +16,7 @@ on boot
 
     # LM356x/cameralight
     chown system camera /sys/devices/i2c-0/0-0053/torch_enable
-    chmod 660 /sys/devices/i2c-0/0-0053/torch_enable
+    chmod 666 /sys/devices/i2c-0/0-0053/torch_enable
     chown system camera /sys/devices/i2c-0/0-0053/torch_current
     chmod 660 /sys/devices/i2c-0/0-0053/torch_current
     chown system system /sys/devices/i2c-0/0-0053/privacy_enable
