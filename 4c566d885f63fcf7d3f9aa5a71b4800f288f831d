@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b6ec9b0_dc998123",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2014-08-12T02:06:52Z",
+      "side": 1,
+      "message": "Minor whitespace issue here.",
+      "revId": "4c566d885f63fcf7d3f9aa5a71b4800f288f831d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2b6ec9b0_fc9e3d08",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2014-08-12T02:06:52Z",
+      "side": 1,
+      "message": "Same here (trailing space)",
+      "revId": "4c566d885f63fcf7d3f9aa5a71b4800f288f831d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
