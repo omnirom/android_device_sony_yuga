@@ -57,7 +57,7 @@
         than the size of the config_autoBrightnessLevels array.
     -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>1</item>    <!--   0 -   3 -->
+        <item>5</item>    <!--   0 -   3 -->
         <item>11</item>   <!--   3 -   6 -->
         <item>22</item>   <!--   6 -  12 -->
         <item>38</item>   <!--  12 -  19 -->
@@ -95,7 +95,11 @@
     </integer-array>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
-    <integer name="config_screenBrightnessDim">70</integer>
+    <integer name="config_screenBrightnessDim">1</integer>
+
+    <!-- Minimum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness below this level. -->
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -107,12 +111,9 @@
             16 - App switch
             32 - Camera
          For example, a device with Home, Back and Menu keys would set this
-         config to 7.
-    <integer name="config_deviceHardwareKeys">0</integer> -->
+         config to 7. -->
+    <integer name="config_deviceHardwareKeys">0</integer>
 
-    <!-- LED Flashlight
-    <bool name="config_enableTorch">true</bool> -->
-
-    <!-- SD card is hot-pluggable on this device
-    <bool name="config_batterySdCardAccessibility">true</bool> -->
+    <!-- SD card is hot-pluggable on this device -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
 </resources>
