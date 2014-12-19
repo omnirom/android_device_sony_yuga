@@ -13,9 +13,9 @@
   },
   {
     "remote":       "github",
-    "repository":   "CyanogenMod/android_device_sony_msm8960-common",
+    "repository":   "AOSPA-legacy/android_device_sony_msm8960-common",
     "target_path":  "device/sony/msm8960-common",
-    "revision":     "cm-12.0"
+    "revision":     "lollipop"
   },
   {
     "remote":       "github",
