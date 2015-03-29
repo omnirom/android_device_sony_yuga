@@ -1,7 +1,3 @@
-# Torch
-PRODUCT_PACKAGES := \
-    OmniTorch
-
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
