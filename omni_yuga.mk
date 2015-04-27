@@ -1,6 +1,9 @@
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 960x640
+
 # Inherit Omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
