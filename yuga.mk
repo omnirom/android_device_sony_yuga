@@ -61,6 +61,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
 
+# Prebuilt kernel
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilt/kernel:kernel
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
