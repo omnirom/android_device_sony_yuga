@@ -34,5 +34,11 @@
     "repository":   "android_hardware_sony_DASH",
     "target_path":  "hardware/sony/DASH",
     "revision":     "android-5.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_frameworks_av",
+    "target_path": "frameworks/av-caf",
+    "revision": "android-5.1-caf"
   }
 ]
