@@ -1,26 +1,8 @@
 [
   {
     "remote":       "omnirom",
-    "repository":   "android_device_sony_common",
-    "target_path":  "device/sony/common",
-    "revision":     "android-5.1"
-  },
-  {
-    "remote":       "omnirom",
-    "repository":   "android_device_sony_qcom-common",
-    "target_path":  "device/sony/qcom-common",
-    "revision":     "android-5.1"
-  },
-  {
-    "remote":       "omnirom",
     "repository":   "android_device_sony_fusion3-common",
     "target_path":  "device/sony/fusion3-common",
-    "revision":     "android-5.1"
-  },
-  {
-    "remote":       "omnirom",
-    "repository":   "android_device_sony_msm8960-common",
-    "target_path":  "device/sony/msm8960-common",
     "revision":     "android-5.1"
   },
   {
