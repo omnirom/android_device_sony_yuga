@@ -61,6 +61,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
 
+# Device specific part for two-stage boot
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
