@@ -12,6 +12,12 @@
     "revision":     "android-5.1"
   },
   {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_thermanager",
+    "target_path":  "hardware/sony/thermanager",
+    "revision":     "android-5.1"
+  },
+  {
     "remote": "omnirom",
     "repository": "android_frameworks_av",
     "target_path": "frameworks/av-caf",
